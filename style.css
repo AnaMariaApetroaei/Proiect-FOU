@@ -11,7 +11,7 @@ body {
   height: 75px;
   font-color: #000;
   }
-  
+
   .header #logo {
     float:left;
     margin:0;
@@ -19,12 +19,12 @@ body {
     height: 75px;
     object-fit: cover;
   }
-  
+
     #navlist {
         float: right;
         vertical-align:center;
     } 
-    
+
     #navlist li {
         display: inline;
         list-style-type: none;
@@ -40,12 +40,19 @@ body {
         font-family: Arial, Helvetica, sans-serif;
         color: white;
 
-        
+
     }
 
-a:hover { 
-  color:white;
+li:hover { 
+  text-decoration: underline;
+  
+
 }
+a:visited{
+  color:black;
+
+}
+
 .container {
   height: 100%;
   width: 100%;
@@ -57,6 +64,7 @@ a:hover {
 .text {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  text-align: center;
   text-decoration:none;
   font-size:25px;
   color: white;
@@ -82,4 +90,4 @@ a:hover {
 
 .button1:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
+} 
